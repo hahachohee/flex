@@ -1,0 +1,25 @@
+.box-container{
+    display: flex;
+}
+/* flex-flow: 주축 여러줄묶음; */
+.flex-container {
+  flex-flow: row-reverse wrap;
+}
+/* flex-direction: 주축(row, row-reverse, column, column-reverse); */
+/* 주 축(main-axis)과 교차 축(cross-axis) */
+/* 시작점(flex-start)과 끝점(flex-end) */
+/* flex-wrap: 여러줄묶음; */
+/* justify-content: 정렬방법; */
+/* align-content: 정렬방법; */
+/* align-items: 정렬방법; */
+/* order: 순서; */
+/* flex: 증가너비 감소너비 기본너비; */
+.item {
+  flex: 1 1 20px;  /* 증가너비 감소너비 기본너비 */
+  flex: 1 1;  /* 증가너비 감소너비 */
+  flex: 1 20px;  /* 증가너비 기본너비 (단위를 사용하면 flex-basis가 적용됩니다) */
+}
+/* flex-grow: 증가너비; */
+/* flex-shrink: 감소너비; */
+/* flex-basis: 기본너비; */
+/* align-self: 정렬방법; */
